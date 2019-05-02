@@ -1,0 +1,97 @@
+<!-- the standard that we are going to follow. -->
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- this is going to be the tab title but will not show up on the acutal page. -->
+        <title>My Resume</title>
+		<!-- the css code link -->
+		<link href="../styles.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="../layoutStyles.css">
+    </head>
+    <body>
+		<div class= "common header">
+			<!-- img is a single tag element. there is not an end that is defined by the size of the image -->
+			
+         	<!-- src="address to image on other page"   html5 says no spaces around the equals sign -->
+         	<!-- if image breaks or does not load the text will be shown. or a screen reader can read it. 
+        	<img src="https://i.pinimg.com/564x/98/0f/8f/980f8faf0ba2a22afd078064bb2145c2.jpg" height="120" alt="a description of the image.">-->
+			
+        	<!-- if the image is a png file in you project folder.-->
+        	<img src="../res/mountian.png" height="120" alt="a beautiful picture of a mountain">
+			
+			<!-- the hastag makes so that the page does not have to create a new Hyper text transfer. Doesn't waste server time -->
+			<span class = "subheader">
+				<a href="../index.html" id="top">Home</a>
+		 		| <a href="#" title="The Resume Page">Resume</a> 
+		 		| <a href="about_me.html">About Me</a>
+			</span>
+		</div>
+		
+		<div class="common leftmenu">
+			<a href="#edu">Education</a> <a href="#exp">Experience</a> <a href="#skl">Skills</a>
+		</div>
+		
+		<div class="common mainbody">
+			<!-- the <p> just means to add a double line break between the last thing on the page -->
+        <p class="justify">
+			<span class="bold"> Mission Statement:</span> My goal after graduating is to become a front end developer.</p>
+			<p> I will do this by studying hard and passing this class I will do this by studying hard and passing this class I will do this by studying hard and passing this class I will do this by studying hard and passing this class I will do this by studying hard and passing this classI will do this by studying hard and passing this class I will do this by studying hard and passing this class I will do this by studying hard and passing this class I will do this by studying hard and passing this class I will do this by studying hard and passing this class I will do this by studying hard and passing this class</p> 
+        <ol>
+			<!-- id can go in any type of tag and used to refence the area -->
+            <li id="edu" class="emphasised">
+                Education
+                <ul>
+					<li>Brigham Young University 2017-2018</li>
+					<li>Brigham Young University Of Hawaii 2016-2017</li>
+					<li>American Fork High School 2013-2016</li>
+                </ul>
+            </li>
+			<li id="exp"  class="emphasised">
+				Experience
+				<ul>
+					<li>Action White Water: River Guide, photographer, social media manager, Website assistant manager </li>
+					<li>Caption Call: Captioning Agent</li>
+					<li>Kawaika's Koolers: smoothie and acai bowl creator</li>
+				</ul>
+			</li>
+			<li id="skl"  class="emphasised" "undeline">
+				Skills 
+				<ul>
+					<li>Coding Languages including, c++, c, java, python, VBA, xml, html, and css.</li>
+					<li> Organizational Skills</li>
+					<li>Database design and development </li>
+					<li>Tableu</li>
+					<li>time management Skills</li>
+					<li>Can row a boat down a class 4 rapid</li>
+					<li>Can start a fire</li>
+					<li>sufficent in cooking in the wilderness</li>
+				</ul>
+			</li>
+        </ol>
+		<!-- an entity code for non breaking space, we are just creating extra space -->
+		<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+   	    <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+		<a href="#top">Back to the top</a>
+		<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+		</div>
+		
+		<div class="common rightbody">
+			<h4>Victoria Black</h4>
+       		 BYU student <br>
+			 Provo Utah <br>
+			<span class="bold">
+        	trying to find</span> her place in the world <br>
+			<!-- creating a link with the a tag, changing the target will open a new page, title shows the description of the page it is going to go to.-->
+			See my Top visted stite <a href="https://www.ted.com/talks" target="_blank" title="the Ted talk home page">TED</a>
+		</div>
+		
+		<div class="common footer">
+			<!--  the &copy; is for the copy right symbol-->
+			www.mywebsitename.com | &copy; 2018 | by Victoria Black
+		</div>
+		
+		
+    </body>
+</html>

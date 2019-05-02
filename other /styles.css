@@ -1,0 +1,63 @@
+/* the cambria is the first choice, and each one after is if the user doesn't have it */
+body {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	font-size: 16px;
+	color: #07292E;
+	background-color: #CCCCCC
+}
+h1 {
+	align-content: center;
+	font-size: 25px;
+	color: #81979A;
+}
+li {
+	font-style: italic;
+	font-weight: normal;
+}
+a {
+	color: cornflowerblue;
+	text-decoration: none;
+}
+/* these are states. When you are hovering over the link or after it has been clicked on */
+a:hover {
+	text-decoration: underline;
+	color: darkgoldenrod;
+}
+a:visited {
+	color: darkcyan;
+}
+/* use class on the style sheet to reference this. */
+.emphasised {
+	font-weight: bold;
+	font-style: normal;
+}
+.undeline {
+	text-decoration: underline;
+}
+.bold{font-weight: bold;}
+.justify {
+	text-align: justify;
+}
+.homebg {
+	background-image: url("res/backgroud.jpeg");
+	background-position: left;
+	background-repeat: repeat;
+	background-size: cover;
+}
+.box1 {
+	border: solid 2px #646464;
+	border-bottom: dotted;
+}
+/* padding is everything inside the boarder */
+.box2 {
+	padding: 2px;
+}
+/* margin is everything outside the boarder */
+.box3 {
+	margin: 50px;
+}
+.box4 {
+	padding-left: 10px;
+	margin: 100px;
+	border-right: #C53C3E solid 5px;
+}

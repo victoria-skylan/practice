@@ -1,0 +1,60 @@
+/* CSS Document */
+body {
+	background-color: #E5E5E5;
+}
+.common {
+	/*background-color: #D0D0D0;
+	border: solid 2px #F6F6F6;*/
+	position: absolute;
+}
+.header {
+	/* will only set two of these three horizontal attributes (left right and width)
+	and only two out of the vertical attributes (top bottom and hieght)*/
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	height: 100px;
+	z-index: 2;
+	border-bottom: solid 1px #333333;
+}
+.leftmenu {
+	/* height of 100 + 5 for the top boarder + 5 for the top of this one 
+	+ 2 for the border + 2 for this border = 114*/
+	top: 114px;
+	left: 5px;
+	width: 100px;
+	bottom: 64px;
+	z-index: 1;
+	padding-top: 45px;
+	border-right: solid 1px #333333;
+	color: rgba(207,161,92,1.00)
+}
+
+.mainbody {
+	top: 114px;
+	bottom: 64px;
+	left: 114px;
+	right: 114px;
+	padding-right: 5px;
+}
+.rightbody {
+	top: 114px;
+	bottom: 64px;
+	right: 5px;
+	width: 100px;
+	border-left: solid 1px #333333;
+	padding-left: 10px;
+}
+.footer {
+	bottom: 5px;
+	height: 10px;
+	left: 5px;
+	right: 5px;
+	font-size: 10px;
+	color: #000011;
+	text-align: center;
+	position: fixed;
+}
+.subheader {
+	float: right;
+}
